@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url("./images/backgroundsmall.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 250px;
+    margin-top: 25px;
+}
+
+header h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+}
+
+nav {
+    text-align: center;
+}
+
+nav span {
+    padding: 0 25px;
+    color: #f30d3f;
+    font-family: 'Kanit';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #f30d3f;
+}
+
+nav a:hover {
+    color: #00c7f9;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    color: #00c7f9;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.main_content {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color:#222222;
+    margin: 50px 100px 0;
+}
+
+.Racedirector {
+    color: #f30d3f;
+}
+
+.RaceDirector_pics {
+    height: 200px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    font-family: 'kanit', sans-serif;
+    margin-top: 50px;
+}
