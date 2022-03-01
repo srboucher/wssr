@@ -11,10 +11,11 @@ body {
 
 header {
     text-align: center;
+    margin: 0 50px;
 }
 
 header img {
-    width: 250px;
+    width: 100%;
     margin-top: 25px;
 }
 
@@ -27,10 +28,13 @@ header h1 {
 
 nav {
     text-align: center;
+    background-image: url("./images/carbon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-top: solid 3px #00c7f9;
     border-bottom: solid 3px #00c7f9;
     padding: 5px;
-    margin: 0 100px;
+    margin: 2px 50px;
 }
 
 nav span {
@@ -66,7 +70,7 @@ body main {
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     color:#222222;
-    margin: 50px 100px 0;
+    margin: 25px 50px 0;
 }
 
 .Racedirector {
