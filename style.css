@@ -16,7 +16,6 @@ header {
 
 header img {
     width: 100%;
-    margin-top: 25px;
 }
 
 header h1 {
@@ -28,17 +27,17 @@ header h1 {
 
 nav {
     text-align: center;
-    background-image: url("./images/carbon.png");
+    background-color: #222222;
     background-repeat: no-repeat;
     background-size: 100%;
     border-top: solid 3px #00c7f9;
     border-bottom: solid 3px #00c7f9;
     padding: 5px;
-    margin: 2px 50px;
+    margin: 0 50px;
 }
 
 nav span {
-    padding: 0 25px;
+    padding: 0 50px;
     color: #f30d3f;
     font-family: 'Kanit';
     font-size: 20px;
@@ -46,11 +45,11 @@ nav span {
 }
 
 nav a {
-    color: #f30d3f;
+    color: #00c7f9;
 }
 
 nav a:hover {
-    color: #00c7f9;
+    color: #f30d3f;
 }
 
 h2 {
